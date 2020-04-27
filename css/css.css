@@ -1,0 +1,72 @@
+body {
+	background-color: lightpink;
+}
+.top {
+	background-image: url(https://avatanplus.com/files/resources/original/5ab282481e177162494ce9bb.jpg);
+	background-size:cover;
+	background-position:center; 
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top h1 {
+	font-size: 64px;
+	color:purple;
+}
+.section {
+	margin-top: 20px;
+	background-color: purple;
+	color:white;
+} 
+.carousel-section {
+	margin-top: 20px;
+	width: 1000px;
+	height:300px;
+}
+.text {
+  background-color: hotpink;
+  width: 500px;
+  height: 250px;
+  margin-bottom: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.text h3 {
+	text-align: center;
+}
+.text ul li{
+	list-style: none;
+}
+.text li::before {
+	content:"";
+	width:8px;
+	height:8px;	
+	display: inline-block;
+	vertical-align: middle;
+	background-color: purple;
+	margin-right:5px;
+	transform: rotate(45deg);
+}
+.button {
+  background-color: blue;
+  color:white;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+.button:hover {
+	color:pink;
+	text-decoration: none;
+}
+.video {
+	position: relative;
+	margin-top: 10px;
+}
+.two {
+	margin-left:-230px;
+	height: 500px;
+}
